@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>국제선물 🎁</title>
+    <link rel="shortcut icon" href="#" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap");
+    </style>
+
+    <link rel="stylesheet" href="./full_page_js/fullpage.min.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/detail.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./full_page_js/fullpage.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://kit.fontawesome.com/b2724d85e9.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-migrate-3.0.0.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+
+    <script type="text/javascript">
+    //<![CDATA[
+    $(function(){
+    var mySlider=$("#slide_banner").bxSlider({
+        mode:"horizontal",   // 가로 수평으로 슬라이드 됩니다.
+          speed:500,              // 이동 속도를 설정합니다.
+          pager:false,            // 현재 위치 페이징 표시 여부 설정.
+          moveSlides:1,         // 슬라이드 이동시 갯수 설정.
+          slideWidth:200,        // 슬라이드 마다 너비 설정.
+          minSlides:3,           // 최소 노출 개수를 설정합니다.
+          maxSlides:3,          // 최대 노출 개수를 설정합니다.
+          slideMargin:10,      // 슬라이드간의 간격을 설정합니다.
+          auto:true,             // 자동으로 흐를지 설정합니다.
+          autoHover:true,    // 마우스 오버시 정시킬지 설정합니다.
+          controls:false        // 이전 다음 버튼 노출 여부 설정합니다.
+    });
+    //이전 버튼을 클릭하면 이전 슬라이드로 전환됩니다.
+    $("#prevBtn").on("click",function(){
+        mySlider.goToPrevSlide();  //이전 슬라이드 배너로 이동됩니다.
+        return false; //<a>에 링크를 차단합니다.
+    });
+    //다음 버튼을 클릭하면 다음 슬라이드로 전환됩니다.
+    $("#nextBtn").on("click",function(){
+        mySlider.goToNextSlide();  //다음 슬라이드 배너로 이동됩니다.
+        return false;
+    });
+    });
+    //]]>
+    </script>
+
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <div class="header random_bnt">
+          <a href="random.html">
+            <img src="../images/random_bnt.png" alt="선물추천" />
+          </a>
+        </div>
+        <div class="header logo">
+            <a href="index.html">
+            <img src="../images/logo.png" />
+          </a>
+        </div>
+        <nav class="header nav">
+          <ul id="menuBig">
+            <li>
+              <a href="#">주방</a>
+            </li>
+            <li><a href="#">누빔</a></li>
+            <li><a href="#">문구</a></li>
+            <li><a href="#">자개</a></li>
+            <li><a href="#">소품</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="menuMid">
+        <div class="inner">
+          <h1>주방 ></h1>
+          <div class="menuSmBox">
+            <div class="menuSm">
+              <h3 class="menuSm_sub">수저</h3>
+              <ul class="menuSm_sub">
+                <li><a href="#">숟가락</a></li>
+                <li><a href="#">젓가락</a></li>
+                <li><a href="#">포크</a></li>
+              </ul>
+            </div>
+            <div class="menuSm">
+              <h3 class="menuSm_sub">수저</h3>
+              <ul class="menuSm_sub">
+                <li><a href="#">숟가락</a></li>
+                <li><a href="#">젓가락</a></li>
+                <li><a href="#">포크</a></li>
+              </ul>
+            </div>
+
+        </div>
+      </div>
+    </header>
+
+    <div id="login">
+      <a href="#">
+        <img src="./images/login.png" />
+      </a>
+      <div id="login_click">
+        <ul>
+          <li><a href="#">로그인</a></li>
+          <li><a href="#">회원가입</a></li>
+          <li><a href="#">장바구니</a></li>
+          <li><a href="#">고객센터</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <section>
+        <div class="detail_section detail_right">
+            <img src="./images/detail.jpg">
+        </div>
+
+        <div class="detail_section detail_left">
+            <div class="detail_textbox">
+                <h1>한복 뱃지</h1>
+                <p>총 4가지 색상조합의 한복뱃지 입니다<br>
+                분홍/ 빨강/ 주황/ 노랑  <br><br>
+                사이즈 : 9.5cm</p>
+            </div>
+
+                <div class="buy_bnt">
+                    <a href="#">
+                        구매하기
+                    </a>
+                </div>
+
+
+
+            <div id="banner_wrap">
+                <ul id="slide_banner">
+                <li><a href="#"><img src="./images/detail_thumb (1).jpg" alt="사진1" /></a></li>
+                <li><a href="#"><img src="./images/detail_thumb (2).jpg" alt="사진2" /></a></li>
+                <li><a href="#"><img src="./images/detail_thumb (3).jpg" alt="사진3" /></a></li>
+                <li><a href="#"><img src="./images/detail_thumb (1).jpg" alt="사진4" /></a></li>
+                <li><a href="#"><img src="./images/detail_thumb (2).jpg" alt="사진5" /></a></li>
+                <li><a href="#"><img src="./images/detail_thumb (3).jpg" alt="사진6" /></a></li>
+                <li><a href="#"><img src="./images/detail_thumb (1).jpg" alt="사진7" /></a></li>
+                <li><a href="#"><img src="./images/detail_thumb (2).jpg" alt="사진8" /></a></li>
+                </ul>
+                <!-- <p><a href="#" id="prevBtn"><i class="fa-solid fa-angle-left"></i></a></p>
+                <i id="nextBtn" class="fa-solid fa-chevron-right"></i> -->
+                <p><a href="#" id="prevBtn" style="font-size:2rem; font-weight:900"><</i></a></p>
+                <p><a href="#" id="nextBtn" style="font-size:2rem; font-weight:900">></a></p>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <footer class="section fp-auto-height footer">
+        <div class="inner">
+          <div class="textbox footer_textbox1">
+            <p>
+              계좌번호 : 000-000-000000<br />
+              예금주 : 000<br />
+              고객센터 : 000-0000-0000
+            </p>
+
+            <p>
+              <span class="w1"
+                >교환/반품주소 : 부산광역시 중구 중구로30번길 12</span
+              >
+            </p>
+          </div>
+          <div class="textbox footer_textbox2">
+            <p>사업자등록증 : 000-00-00000</p>
+            <p>대표자 : 곽OO</p>
+            <p>상호명 : 국제선물</p>
+            <p>주소 : 부산광역시 중구 중구로30번길 12</p>
+            <p>통신판매업 신고번호 : 000-0000-00000</p>
+            <p>e-mail : 000000@naver.com</p>
+          </div>
+        </div>
+    </footer>
+
+  </body>
+</html>
