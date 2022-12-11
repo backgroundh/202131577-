@@ -1,0 +1,69 @@
+body {
+  background-image: url(../image/s1_back.png);
+  background-size: 90%;
+  background-color: #eaeaea;
+}
+
+.pro {
+  position: relative;
+  padding-top: 100px;
+}
+
+.pro .proLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pro .proLeft .proThum {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.pro .proLeft .proThum img {
+  width: 100%;
+}
+
+.pro .proLeft .proDetail {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  padding: 100px;
+}
+
+.pro {
+  position: relative;
+  padding-top: 100px;
+}
+
+.pro .proRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.pro .proRight .proThum {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.pro .proRight .proThum img {
+  width: 100%;
+}
+
+.pro .proRight .proDetail {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  padding: 100px;
+}
