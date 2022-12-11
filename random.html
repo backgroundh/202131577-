@@ -4,9 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>국제선물 🎁</title>
-    <link rel="shortcut icon" href="#" />
 
+    <link rel="stylesheet" href="css/fullpage.min.css" />
+    <link rel="stylesheet" href="css/section.css" />
+    <link rel="stylesheet" href="css/fixed.css" />
+
+    <script src="js/fullpage.min.js"></script>
+    <script src="js/fixed.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="shortcut icon" href="../favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
+
+    <title>국제선물 🎁</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap");
     </style>
@@ -23,35 +40,19 @@
     ></script>
     <script src="./full_page_js/fullpage.min.js"></script>
     <script src="./js/main.js"></script>
-
-        <!--  -->
-        <meta name="description" content="A layout with an alternate scroll on image columns and a content preview.">
-        <meta name="keywords" content="layout, scroll, locomotive scroll, column, javascript, web design">
-        <meta name="author" content="Codrops">
-        <link rel="shortcut icon" href="/favicon.b13f945b.ico">
-        <link rel="stylesheet" href="https://use.typekit.net/njz5ajv.css">
-        <link rel="stylesheet" type="text/css" href="./css/index.14f68720.css">
-        <script>document.documentElement.className = "js";
-    var supportsCssVars = function() {
-    var e, t = document.createElement("style");
-    return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e;
-    };
-    supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
-    
-    </script>
   </head>
-
   <body>
+ 
     <header>
       <div class="inner">
-        <!-- <div class="header random_bnt">
-          <a href="#">
-            <img src="../images/random_bnt.png" alt="선물추천" />
+        <div class="header random_bnt">
+          <a href="random.html">
+            <img src="./images/random_bnt.png" alt="선물추천" />
           </a>
-        </div> -->
+        </div>
         <div class="header logo">
           <a href="index.html">
-            <img src="../images/logo.png" />
+            <img src="./images/logo.png" />
           </a>
         </div>
         <nav class="header nav">
@@ -91,6 +92,7 @@
       </div>
     </header>
 
+
     <div id="login">
       <a href="#">
         <img src="./images/login.png" />
@@ -105,805 +107,208 @@
       </div>
     </div>
 
-    <body class="loading">
-      <main>
-        <!-- <div class="frame">
-          <h1 class="frame__title">Alternate Column Scroll</h1>
-          <nav class="frame__links">
-            <a href="https://tympanus.net/codrops/2021/12/01/grid-zoom-layout/"
-              >Previous demo</a
-            >
-            <a href="https://tympanus.net/codrops/?p=57959">Article</a>
-            <a href="https://github.com/codrops/ColumnScroll/">GitHub</a>
-          </nav>
-          <button class="unbutton button-menu" aria-label="Open the menu">
-            <span></span>
-          </button>
-        </div> -->
-        <!-- <h2 class="heading heading--up">Jack Ruthless</h2>
-        <h2 class="heading heading--down">Jack Ruthless</h2> -->
-        <div class="columns" data-scroll-container="">
-          <div class="column-wrap column-wrap--height">
-
-
-            <div class="column">
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="2">
-                  <div class="column__item-img" >           
-                  <a href="detail.html"><img style="width: 100%;" src="./images/pro01 (1).png"></a>
-                </div>
-                </div>
-                <!-- <figcaption class="column__item-caption">
-                  <span>Cyber Blue</span>
-                  <span>2011</span>
-                </figcaption> -->
-              </figure>
-
-
-
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="5">
-                  <div class="column__item-img" >           
-                    <a href="detail.html"><img style="width: 100%;" src="./images/pro01 (2).png"></a>
-                  </div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <!-- <span>Gnostic Will</span>
-                  <span>2012</span> -->
-                </figcaption>
-              </figure>
-
-
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="8">
-                  <div class="column__item-img" >           
-                    <a href="detail.html"><img style="width: 100%;" src="./images/pro01 (3).png"></a>
-                  </div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <!-- <span>French Kiss</span>
-                  <span>2013</span> -->
-                </figcaption>
-              </figure>
-
-              
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="11">
-                  <div class="column__item-img" >           
-                    <a href="detail.html"><img style="width: 100%;" src="./images/pro01 (4).png"></a>
-                  </div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <!-- <span>French Kiss</span>
-                  <span>2013</span> -->
-                </figcaption>
-              </figure>
-
-
-              
-              <!-- <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="11">
-                  <div
-                    class="column__item-img"
-                    style="background-image: url(4.07f2953c.jpg);"
-                  ></div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <span>Half Life</span>
-                  <span>2014</span>
-                </figcaption>
-              </figure>
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="14">
-                  <div
-                    class="column__item-img"
-                    style="background-image: url(5.39e1abe.jpg);"
-                  ></div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <span>Love Boat</span>
-                  <span>2015</span>
-                </figcaption>
-              </figure>
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="17">
-                  <div
-                    class="column__item-img"
-                    style="background-image: url(6.5c217eac.jpg);"
-                  ></div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <span>Golden Ray</span>
-                  <span>2016</span>
-                </figcaption>
-              </figure>
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="20">
-                  <div
-                    class="column__item-img"
-                    style="background-image: url(7fef528f6.jpg);"
-                  ></div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <span>Blame Game</span>
-                  <span>2017</span>
-                </figcaption>
-              </figure>
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="23">
-                  <div
-                    class="column__item-img"
-                    style="background-image: url(8.02c4f715.jpg);"
-                  ></div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <span>Lone Dust</span>
-                  <span>2018</span>
-                </figcaption>
-              </figure> -->
-            </div>
-            <!-- /column -->
-          </div>
-          <!-- /column-wrap -->
-          <div class="column-wrap">
-            <div class="column" data-scroll-section="">
-
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="1">
-                  <div class="column__item-img" >           
-                    <a href="detail.html"><img style="width: 100%;" src="./images/pro01 (5).png"></a>
-                  </div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <!-- <span>French Kiss</span>
-                  <span>2013</span> -->
-                </figcaption>
-              </figure>
-
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="4">
-                  <div class="column__item-img" >           
-                    <a href="detail.html"><img style="width: 100%;" src="./images/pro01 (6).png"></a>
-                  </div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <!-- <span>French Kiss</span>
-                  <span>2013</span> -->
-                </figcaption>
-              </figure>
-
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="7">
-                  <div class="column__item-img" >           
-                    <a href="detail.html"><img style="width: 100%;" src="./images/pro01 (7).png"></a>
-                  </div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <!-- <span>French Kiss</span>
-                  <span>2013</span> -->
-                </figcaption>
-              </figure>
-
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="10">
-                  <div class="column__item-img" >           
-                    <a href="detail.html"><img style="width: 100%;" src="./images/pro01 (8).png"></a>
-                  </div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <!-- <span>French Kiss</span>
-                  <span>2013</span> -->
-                </figcaption>
-              </figure>
-
-
-
-
-              <!-- <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="1">
-                  <div
-                    class="column__item-img"
-                    style="background-image: url(9a517ebd6.jpg);"
-                  ></div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <span>Lucky Wood</span>
-                  <span>2019</span>
-                </figcaption>
-              </figure>
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="4">
-                  <div
-                    class="column__item-img"
-                    style="background-image: url(10.43f5b1d4.jpg);"
-                  ></div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <span>Good Earth</span>
-                  <span>2020</span>
-                </figcaption>
-              </figure>
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="7">
-                  <div
-                    class="column__item-img"
-                    style="background-image: url(11.83fbf0d4.jpg);"
-                  ></div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <span>Empty Words</span>
-                  <span>2021</span>
-                </figcaption>
-              </figure>
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="10">
-                  <div
-                    class="column__item-img"
-                    style="background-image: url(12.055337de.jpg);"
-                  ></div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <span>Nonage Line</span>
-                  <span>2009</span>
-                </figcaption>
-              </figure>
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="13">
-                  <div
-                    class="column__item-img"
-                    style="background-image: url(13.5642ddda.jpg);"
-                  ></div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <span>Blue Hell</span>
-                  <span>2010</span>
-                </figcaption>
-              </figure>
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="16">
-                  <div
-                    class="column__item-img"
-                    style="background-image: url(14.79f0177d.jpg);"
-                  ></div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <span>Cold Blood</span>
-                  <span>2011</span>
-                </figcaption>
-              </figure>
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="19">
-                  <div
-                    class="column__item-img"
-                    style="background-image: url(15.228c6374.jpg);"
-                  ></div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <span>Tulip Heat</span>
-                  <span>2012</span>
-                </figcaption>
-              </figure>
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="22">
-                  <div
-                    class="column__item-img"
-                    style="background-image: url(16.1dcbcdf6.jpg);"
-                  ></div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <span>Red Wrath</span>
-                  <span>2013</span>
-                </figcaption>
-              </figure> -->
-            </div>
-            <!-- /column -->
-          </div>
-
-
-          <div class="column-wrap column-wrap--height">
-            <div class="column">
-
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="3">
-                  <div class="column__item-img" >           
-                    <a href="detail.html"><img style="width: 100%;" src="./images/pro01 (9).png"></a>
-                  </div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <!-- <span>French Kiss</span>
-                  <span>2013</span> -->
-                </figcaption>
-              </figure>
-
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="6">
-                  <div class="column__item-img" >           
-                    <a href="detail.html"><img style="width: 100%;" src="./images/pro01 (10).png"></a>
-                  </div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <!-- <span>French Kiss</span>
-                  <span>2013</span> -->
-                </figcaption>
-              </figure>
-
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="9">
-                  <div class="column__item-img" >           
-                    <a href="detail.html"><img style="width: 100%;" src="./images/pro01 (5).png"></a>
-                  </div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <!-- <span>French Kiss</span>
-                  <span>2013</span> -->
-                </figcaption>
-              </figure>
-
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="12">
-                  <div class="column__item-img" >           
-                    <a href="detail.html"><img style="width: 100%;" src="./images/pro01 (3).png"></a>
-                  </div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <!-- <span>French Kiss</span>
-                  <span>2013</span> -->
-                </figcaption>
-              </figure>
-
-<!--               
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="3">
-                  <div
-                    class="column__item-img"
-                    style="background-image: url(17.9c9874f.jpg);"
-                  ></div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <span>Bold Human</span>
-                  <span>2014</span>
-                </figcaption>
-              </figure>
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="6">
-                  <div
-                    class="column__item-img"
-                    style="background-image: url(18c9bfd088.jpg);"
-                  ></div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <span>Loyal Royal</span>
-                  <span>2015</span>
-                </figcaption>
-              </figure>
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="9">
-                  <div
-                    class="column__item-img"
-                    style="background-image: url(19.4b11b6f8.jpg);"
-                  ></div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <span>Lone Cone</span>
-                  <span>2016</span>
-                </figcaption>
-              </figure>
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="12">
-                  <div
-                    class="column__item-img"
-                    style="background-image: url(20.31ba92a.jpg);"
-                  ></div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <span>Dutch Green</span>
-                  <span>2017</span>
-                </figcaption>
-              </figure>
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="15">
-                  <div
-                    class="column__item-img"
-                    style="background-image: url(21be5e842c.jpg);"
-                  ></div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <span>Valley Hill</span>
-                  <span>2018</span>
-                </figcaption>
-              </figure>
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="18">
-                  <div
-                    class="column__item-img"
-                    style="background-image: url(22be99dbec.jpg);"
-                  ></div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <span>Kale Hale</span>
-                  <span>2019</span>
-                </figcaption>
-              </figure>
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="21">
-                  <div
-                    class="column__item-img"
-                    style="background-image: url(23abefde6e.jpg);"
-                  ></div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <span>Fake Cake</span>
-                  <span>2020</span>
-                </figcaption>
-              </figure>
-              <figure class="column__item">
-                <div class="column__item-imgwrap" data-pos="24">
-                  <div
-                    class="column__item-img"
-                    style="background-image: url(24.452cae66.jpg);"
-                  ></div>
-                </div>
-                <figcaption class="column__item-caption">
-                  <span>Book Belly</span>
-                  <span>2021</span>
-                </figcaption>
-              </figure> -->
-            </div>
-            <!-- /column -->
-          </div>
-          <!-- /column-wrap -->
-        </div>
-        <!-- columns -->
-        <div class="content">
-          <div class="content__item">
-            <h2 class="content__item-title">Lucky Wood</h2>
-            <div class="content__item-text">
-              <span
-                >Faith, you're driving me away You do it every day You don't mean
-                it But it hurts like hell</span
-              >
-              <span>2019</span>
-            </div>
-          </div>
-          <div class="content__item">
-            <h2 class="content__item-title">Cyber Blue</h2>
-            <div class="content__item-text">
-              <span
-                >My brain says I'm receiving pain A lack of oxygen From my life
-                support My iron lung
-              </span>
-              <span>2011</span>
-            </div>
-          </div>
-          <div class="content__item">
-            <h2 class="content__item-title">Bold Human</h2>
-            <div class="content__item-text">
-              <span
-                >We're too young to fall asleep Too cynical to speak We are losing
-                it Can't you tell?</span
-              >
-              <span>2014</span>
-            </div>
-          </div>
-          <div class="content__item">
-            <h2 class="content__item-title">Good Earth</h2>
-            <div class="content__item-text">
-              <span
-                >We scratch our eternal itch A twentieth century bitch And we are
-                grateful for Our iron lung</span
-              >
-              <span>2020</span>
-            </div>
-          </div>
-          <div class="content__item">
-            <h2 class="content__item-title">Gnostic Will</h2>
-            <div class="content__item-text">
-              <span
-                >The head shrinkers They want everything My Uncle Bill My Belisha
-                beacon</span
-              >
-              <span>2012</span>
-            </div>
-          </div>
-          <div class="content__item">
-            <h2 class="content__item-title">Loyal Royal</h2>
-            <div class="content__item-text">
-              <span
-                >The head shrinkers They want everything My Uncle Bill My Belisha
-                beacon</span
-              >
-              <span>2015</span>
-            </div>
-          </div>
-          <div class="content__item">
-            <h2 class="content__item-title">Empty Words</h2>
-            <div class="content__item-text">
-              <span
-                >Suck, suck your teenage thumb Toilet trained and dumb When the
-                power runs out We'll just hum</span
-              >
-              <span>2021</span>
-            </div>
-          </div>
-          <div class="content__item">
-            <h2 class="content__item-title">French Kiss</h2>
-            <div class="content__item-text">
-              <span
-                >This, this is our new song Just like the last one A total waste
-                of time My iron lung</span
-              >
-              <span>2013</span>
-            </div>
-          </div>
-          <div class="content__item">
-            <h2 class="content__item-title">Lone Cone</h2>
-            <div class="content__item-text">
-              <span
-                >And if you're frightened You can be frightened You can be, it's
-                OK</span
-              >
-              <span>2016</span>
-            </div>
-          </div>
-          <div class="content__item">
-            <h2 class="content__item-title">Nonage Line</h2>
-            <div class="content__item-text">
-              <span
-                >Lost in the mountain Rust in my brain The air is sacred here In
-                spite of your claim</span
-              >
-              <span>2009</span>
-            </div>
-          </div>
-          <div class="content__item">
-            <h2 class="content__item-title">Half Life</h2>
-            <div class="content__item-text">
-              <span
-                >Up on the rooftops Out of reach Trickster is meaningless
-                Trickster is weak</span
-              >
-              <span>2014</span>
-            </div>
-          </div>
-          <div class="content__item">
-            <h2 class="content__item-title">Dutch Green</h2>
-            <div class="content__item-text">
-              <span>He's talking out the world Talking out the world</span>
-              <span>2017</span>
-            </div>
-          </div>
-          <div class="content__item">
-            <h2 class="content__item-title">Blue Hell</h2>
-            <div class="content__item-text">
-              <span
-                >Hey, hey, hey This is only halfway Hey, hey, hey This is only
-                halfway</span
-              >
-              <span>2010</span>
-            </div>
-          </div>
-          <div class="content__item">
-            <h2 class="content__item-title">Love Boat</h2>
-            <div class="content__item-text">
-              <span
-                >I wanted you so bad That I couldn't say All these things fall
-                apart</span
-              >
-              <span>2015</span>
-            </div>
-          </div>
-          <div class="content__item">
-            <h2 class="content__item-title">Valley Hill</h2>
-            <div class="content__item-text">
-              <span
-                >We wanted out so bad We couldn't say These things fall
-                apart</span
-              >
-              <span>2018</span>
-            </div>
-          </div>
-          <div class="content__item">
-            <h2 class="content__item-title">Cold Blood</h2>
-            <div class="content__item-text">
-              <span
-                >Truant kids A can of brick dust worms Who do not want to climb
-                down from Their chestnut tree</span
-              >
-              <span>2011</span>
-            </div>
-          </div>
-          <div class="content__item">
-            <h2 class="content__item-title">Golden Ray</h2>
-            <div class="content__item-text">
-              <span
-                >Long white gloves Police tread carefully Escaped from the zoo The
-                perfect child facsimile is</span
-              >
-              <span>2016</span>
-            </div>
-          </div>
-          <div class="content__item">
-            <h2 class="content__item-title">Kale Hale</h2>
-            <div class="content__item-text">
-              <span
-                >Please could you stop the noise? I'm trying to get some rest From
-                all the unborn chicken voices in my head</span
-              >
-              <span>2019</span>
-            </div>
-          </div>
-          <div class="content__item">
-            <h2 class="content__item-title">Tulip Heat</h2>
-            <div class="content__item-text">
-              <span>What's that? I may be paranoid, but not an android</span>
-              <span>2012</span>
-            </div>
-          </div>
-          <div class="content__item">
-            <h2 class="content__item-title">Blame Game</h2>
-            <div class="content__item-text">
-              <span
-                >When I am king you will be first against the wall With your
-                opinion which is of no consequence at all</span
-              >
-              <span>2017</span>
-            </div>
-          </div>
-          <div class="content__item">
-            <h2 class="content__item-title">Fake Cake</h2>
-            <div class="content__item-text">
-              <span
-                >Ambition makes you look pretty ugly Kicking and squealing, Gucci
-                little piggy</span
-              >
-              <span>2017</span>
-            </div>
-          </div>
-          <div class="content__item">
-            <h2 class="content__item-title">Red Wrath</h2>
-            <div class="content__item-text">
-              <span
-                >You don't remember, you don't remember Why don't you remember my
-                name?</span
-              >
-              <span>2013</span>
-            </div>
-          </div>
-          <div class="content__item">
-            <h2 class="content__item-title">Lone Dust</h2>
-            <div class="content__item-text">
-              <span
-                >Off with his head, man, off with his head, man Why don't you
-                remember my name? I guess he does</span
-              >
-              <span>2018</span>
-            </div>
-          </div>
-          <div class="content__item">
-            <h2 class="content__item-title">Book Belly</h2>
-            <div class="content__item-text">
-              <span
-                >Rain down, rain down Come on, rain down on me From a great height
-                From a great height, height</span
-              >
-              <span>2021</span>
-            </div>
-          </div>
-          <nav class="content__nav">
-            <div class="content__nav-wrap">
-              <div
-                class="content__nav-item"
-                style="background-image: url(25.049bd621.jpg);"
-              ></div>
-              <div
-                class="content__nav-item"
-                style="background-image: url(26.675918dc.jpg);"
-              ></div>
-              <div
-                class="content__nav-item"
-                style="background-image: url(27.4476f7fa.jpg);"
-              ></div>
-              <div
-                class="content__nav-item"
-                style="background-image: url(28.0569fb92.jpg);"
-              ></div>
-              <div
-                class="content__nav-item"
-                style="background-image: url(29abaebfc5.jpg);"
-              ></div>
-              <div
-                class="content__nav-item"
-                style="background-image: url(30fa44d3b8.jpg);"
-              ></div>
-              <div
-                class="content__nav-item"
-                style="background-image: url(31.66323178.jpg);"
-              ></div>
-              <div
-                class="content__nav-item"
-                style="background-image: url(32.9631aae9.jpg);"
-              ></div>
-              <div
-                class="content__nav-item"
-                style="background-image: url(33aa63b1de.jpg);"
-              ></div>
-              <div
-                class="content__nav-item"
-                style="background-image: url(34.3a68e1d.jpg);"
-              ></div>
-              <div
-                class="content__nav-item"
-                style="background-image: url(35e24ff5d2.jpg);"
-              ></div>
-              <div
-                class="content__nav-item"
-                style="background-image: url(36.41d47983.jpg);"
-              ></div>
-              <div
-                class="content__nav-item"
-                style="background-image: url(37.2cf0710e.jpg);"
-              ></div>
-              <div
-                class="content__nav-item"
-                style="background-image: url(38.993b1591.jpg);"
-              ></div>
-              <div
-                class="content__nav-item"
-                style="background-image: url(39cd39e269.jpg);"
-              ></div>
-              <div
-                class="content__nav-item"
-                style="background-image: url(40.4cf142b0.jpg);"
-              ></div>
-              <div
-                class="content__nav-item"
-                style="background-image: url(41.8f39ace9.jpg);"
-              ></div>
-              <div
-                class="content__nav-item"
-                style="background-image: url(42.6de94ea0.jpg);"
-              ></div>
-              <div
-                class="content__nav-item"
-                style="background-image: url(43.189506c3.jpg);"
-              ></div>
-            </div>
-          </nav>
-          <button class="unbutton button-back">
-            <svg viewbox="0 0 50 9" width="100%">
-              <path d="M0 4.5l5-3M0 4.5l5 3M50 4.5h-77"></path>
-            </svg>
-          </button>
-        </div>
-      </main>
-      <script src="/index.8b7fb9b3.js" defer=""></script>
-    </body>
-
-      <footer class="section fp-auto-height footer">
-        <div class="inner">
-          <div class="textbox footer_textbox1">
-            <p>
-              계좌번호 : 000-000-000000<br />
-              예금주 : 000<br />
-              고객센터 : 000-0000-0000
-            </p>
-
-            <p>
-              <span class="w1"
-                >교환/반품주소 : 부산광역시 중구 중구로30번길 12</span
-              >
-            </p>
-          </div>
-          <div class="textbox footer_textbox2">
-            <p>사업자등록증 : 000-00-00000</p>
-            <p>대표자 : 곽OO</p>
-            <p>상호명 : 국제선물</p>
-            <p>주소 : 부산광역시 중구 중구로30번길 12</p>
-            <p>통신판매업 신고번호 : 000-0000-00000</p>
-            <p>e-mail : 000000@naver.com</p>
-          </div>
-        </div>
-      </footer>
+    <!---->
+    <div class="container">
+      <!-- Top Navigation -->
+      <!-- <div class="codrops-top clearfix">
+        <a
+          class="codrops-icon codrops-icon-prev"
+          href="http://tympanus.net/Development/ButtonComponentMorph/"
+          ><span>Previous Demo</span></a
+        >
+        <span class="right"
+          ><a
+            class="codrops-icon codrops-icon-drop"
+            href="http://tympanus.net/codrops/?p=19069"
+            ><span>Back to the Codrops Article</span></a
+          ></span
+        >
+      </div> -->
+      <!-- <header class="codrops-header">
+        <h1>
+          Grid Loading and Hover Effect
+          <span
+            >Recreating <a href="http://design.samsung.com/">Samsung's</a> grid
+            loading effect</span
+          >
+        </h1>
+        <nav class="codrops-demos">
+          <a href="index.html">Swipe right</a>
+          <a class="current-demo" href="index2.html">Swipe Down</a>
+          <a href="index3.html">Rotate</a>
+        </nav>
+      </header> -->
+      <section class="grid-wrap">
+        <ul class="grid swipe-down" id="grid" style="text-align:center">
+          <li class="title-box">
+            <!-- <h2>
+              Illustrations by
+              <a href="http://ryotakemasa.com/">Ryo Takemasa</a>
+            </h2> -->
+          </li>
+          <li >
+            <a href="detail.html">
+              <img src="./images/pro01 (1).png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+              <!-- <div id="productDetail">
+                <h4>상품명</h4>
+                <p>상품설명 가격</p>
+              </div> -->
+            </a>
+          </li>
+          <li>
+            <a href="detail.html">
+              <img src="./images/pro01 (3).png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="detail.html">
+              <img src="./images/pro01 (2).png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="detail.html">
+              <img src="./images/pro01 (4).png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="detail.html">
+              <img src="./images/pro01 (5).png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="detail.html">
+              <img src="./images/pro01 (6).png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="detail.html">
+              <img src="./images/pro01 (7).png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="detail.html">
+              <img src="./images/pro01 (8).png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="detail.html">
+              <img src="./images/pro01 (9).png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="detail.html">
+              <img src="./images/pro01 (10).png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="detail.html">
+              <img src="./images/pro01 (1).png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+              <!-- <div id="productDetail">
+                <h4>상품명</h4>
+                <p>상품설명 가격</p>
+              </div> -->
+            </a>
+          </li>
+          <li>
+            <a href="detail.html">
+              <img src="./images/pro01 (3).png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="detail.html">
+              <img src="./images/pro01 (2).png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="detail.html">
+              <img src="./images/pro01 (4).png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="detail.html">
+              <img src="./images/pro01 (5).png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="detail.html">
+              <img src="./images/pro01 (6).png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="detail.html">
+              <img src="./images/pro01 (7).png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="detail.html">
+              <img src="./images/pro01 (8).png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="detail.html">
+              <img src="./images/pro01 (9).png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="detail.html">
+              <img src="./images/pro01 (10).png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+        </ul>
+      </section>
+      <!-- <section class="related">
+        <p>If you enjoyed this demo you might also like:</p>
+        <a href="http://tympanus.net/Development/ThumbnailGridAnimations/">
+          <img
+            src="http://tympanus.net/codrops/wp-content/uploads/2013/10/ThumbnailGridAnimations1-300x162.jpg"
+          />
+          <h3>Animations for Thumbnail Grids</h3>
+        </a>
+        <a href="http://tympanus.net/Development/GridLoadingEffects/">
+          <img
+            src="http://tympanus.net/codrops/wp-content/uploads/2013/07/GridLoadingEffects-300x162.png"
+          />
+          <h3>Grid Loading Effects</h3>
+        </a>
+      </section> -->
     </div>
+    <!-- /container -->
+
+    <!-- <div id="footer" class="section s4">
+      <div>
+        <div>fgdg</div>
+      </div>
+    </div> -->
+
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/colorfinder-1.1.js"></script>
+    <script src="js/gridScrollFx.js"></script>
+    <script>
+      new GridScrollFx(document.getElementById("grid"), {
+        viewportFactor: 0.4,
+      });
+    </script>
   </body>
 </html>
