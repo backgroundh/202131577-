@@ -6,7 +6,7 @@ $(function(){
         $("#login_click").stop().animate({height:80}).css({"display":"none"})
     });
 
-    $(".").hover(
+    $(".nav").hover(
         function(){
         $("#menuMid").stop().slideDown({"display":"block"})
     },function(){
